@@ -1,7 +1,7 @@
 # csi-har-unb
 Códigos Trabalho de Graduação
 
-Códigos do professor Adolfo com algumas pequenas alterações pra rodar os programas na minha máquina.
+Códigos do professor Adolfo com algumas pequenas alterações pra rodar os programas na minha máquina (Linux-Ubuntu).
 
 #### Instruções
 1. Abrir primeiro terminal -> Ir para o diretório CSI261M1 -> No terminal: source start
@@ -10,4 +10,5 @@ Códigos do professor Adolfo com algumas pequenas alterações pra rodar os prog
 
 #### Lembretes
 * Editor de texto no terminal = pico
-* ''' /dev/ttyUSB* ''' Descobrir em qual USB o módulo está conectado
+* /dev/ttyUSB* -> Descobrir em qual USB o módulo está conectado
+* ESP-IDF 4.4.3 e Python 3.9.12
