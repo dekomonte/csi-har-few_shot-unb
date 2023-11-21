@@ -15,9 +15,9 @@ Códigos do professor Adolfo com algumas pequenas alterações pra rodar os prog
 
 * -----------#-----------#-----------#-----------#-----------#-----------#-----------#-----------#-----------#-----------#
 # Atualizações
-Mudamos para o Windows <br>
-ESP-IDF 5.0 <br>
-Diretório do Boyang Li <br>
+Mudamos para o Windows <br/>
+ESP-IDF 5.0 <br/>
+Diretório do Boyang Li <br/>
 
 #### Instruções (Atualização)
 1. Abrir atalho de terminal "ESP-IDF 5.0 CMD" ou "ESP-IDF 5.0 POWERSHELL" presentes na Área de Trabalho
