@@ -14,12 +14,12 @@ Códigos do professor Adolfo com algumas pequenas alterações pra rodar os prog
 * ESP-IDF 4.4.3 e Python 3.9.12
 
 * -----------#-----------#-----------#-----------#-----------#-----------#-----------#-----------#-----------#-----------#
-## Atualizações
-Mudamos para o Windows.
-ESP-IDF 5.0
-Diretório do Boyang Li
+# Atualizações
+Mudamos para o Windows <br>
+ESP-IDF 5.0 <br>
+Diretório do Boyang Li <br>
 
-#### Intruções (Atualizadas)
+#### Instruções (Atualização)
 1. Abrir atalho de terminal "ESP-IDF 5.0 CMD" ou "ESP-IDF 5.0 POWERSHELL" presentes na Área de Trabalho
 2. Ir para o diretório csi261M1
    -> idf.py build
