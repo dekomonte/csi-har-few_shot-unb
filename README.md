@@ -36,3 +36,6 @@ Diretório do Boyang Li <br/>
 ### Tercerira Versão
 Em produção... <br>
 Versões anteriores falharam por incompatibilidades. 
+
+## Machine Learning
+show_CSI()
