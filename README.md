@@ -1,9 +1,9 @@
 # csi-har-unb
-TG2
+[TG2](https://www.overleaf.com/3187438787kyzdfhdvkhtr#08cde0)
 
 ## Aquisição de Dados
 
-### Primeira Versão
+### Primeira Versão (DESATUALIZADA)
 Códigos do professor Adolfo com algumas pequenas alterações pra rodar no Linux-Ubuntu. 
 
 ##### Instruções
@@ -16,7 +16,7 @@ Códigos do professor Adolfo com algumas pequenas alterações pra rodar no Linu
 * /dev/ttyUSB* -> Descobrir em qual USB o módulo está conectado
 * ESP-IDF 4.4.3 e Python 3.9.12
 
-### Segunda Versão
+### Segunda Versão (DESATUALIZADA)
 Mudamos para o Windows <br/>
 ESP-IDF 5.0 <br/>
 Diretório do Boyang Li <br/>
