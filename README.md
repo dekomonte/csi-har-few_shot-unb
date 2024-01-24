@@ -1,7 +1,7 @@
 # csi-har-unb
 TG2
 
-##Aquisição de Dados
+## Aquisição de Dados
 
 ### Primeira Versão
 Códigos do professor Adolfo com algumas pequenas alterações pra rodar no Linux-Ubuntu. 
@@ -34,4 +34,5 @@ Diretório do Boyang Li <br/>
    * idf.py -p [PORT] flash monitor (só monitor se os módulos já estiverem gravados)
 
 ### Tercerira Versão
-Em produção...
+Em produção... <br>
+Versões anteriores falharam por incompatibilidades. 
