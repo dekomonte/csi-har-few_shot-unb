@@ -4,3 +4,7 @@ Primeira aplicação no WIN10 - hello_world
 * Conectar o ESP e descobrir em qual porta ele está
 * Ir até o diretório do projeto
 ```idf.py set-target esp32 fullclean```
+```idf.py menuconfig```
+```idf.py build```
+```idf.py -p PORT flash```
+```idf.py -p PORT monitor```
