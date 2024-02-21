@@ -1,0 +1,6 @@
+Primeira aplicação no WIN10 - hello_world
+
+* Abrir atalho de terminal (já configurado com ambiente)
+* Conectar o ESP e descobrir em qual porta ele está
+* Ir até o diretório do projeto
+```idf.py set-target esp32 fullclean```
