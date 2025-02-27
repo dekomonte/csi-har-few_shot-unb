@@ -16,7 +16,7 @@ Este repositório contém os códigos utilizados no meu Trabalho de Conclusão d
 
 - **Few_Shot_Learning**
   - **fewShot_UnB_logTests.ipynb:** Implementação do modelo de aprendizado Few-Shot com CNN para estimar a ocupação a partir de poucas amostras, validando o modelo em diferentes ambientes. Resultados e matrizes de confusão do melhor modelo. 
-  - **fewShot_UnB.ipynb:** Implementação do modelo de aprendizado Few-Shot com CNN para estimar a ocupação a partir de poucas amostras, validando o modelo em diferentes ambientes.
+  - **fewShot_UnB.ipynb:** Implementação do modelo de aprendizado Few-Shot com CNN para estimar a ocupação a partir de poucas amostras, validando o modelo em diferentes ambientes. Resulta no melhor modelo e quais parâmetros foram utilizados. 
 
 ---
 Este projeto faz parte de uma pesquisa voltada para a eficiência energética e automação predial, utilizando aprendizado de máquina para estimar padrões de ocupação com base na variação do sinal CSI.
