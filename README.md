@@ -37,21 +37,6 @@ Este repositório contém os códigos desenvolvidos para a pesquisa de estimaç�
 - Bibliotecas: NumPy, Matplotlib, TensorFlow/PyTorch
 - Ambiente ESP32 configurado
 
-## Contribuição
-
-Sinta-se à vontade para abrir issues ou enviar pull requests caso queira contribuir com melhorias ou correções.
-
 ---
-
-**Autora:** Andressa Maria Monteiro Sena  
-**Instituição:** Universidade de Brasília (UnB)  
-**Programa:** Iniciação Científica (ProIC)
-
----
-
 Este projeto faz parte de uma pesquisa voltada para a eficiência energética e automação predial, utilizando aprendizado de máquina para estimar padrões de ocupação com base na variação do sinal CSI.
-
----
-
-Qualquer ajuste que você queira fazer, é só avisar! 🚀
 
