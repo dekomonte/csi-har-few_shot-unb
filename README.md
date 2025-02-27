@@ -1,41 +1,57 @@
-# csi-har-unb
-[TG2](https://www.overleaf.com/3187438787kyzdfhdvkhtr#08cde0)
+# Pesquisa de Estimação de Ocupação em Ambientes Prediais
 
-## Aquisição de Dados
+Este repositório contém os códigos desenvolvidos para a pesquisa de estimação de ocupação em ambientes prediais utilizando técnicas de aprendizado de máquina e Few-Shot Learning, com base em dados CSI (Channel State Information).
 
-### Primeira Versão (DESATUALIZADA)
-Códigos do professor Adolfo com algumas pequenas alterações pra rodar no Linux-Ubuntu. 
+## Estrutura do Repositório
 
-##### Instruções
-1. Abrir primeiro terminal -> Ir para o diretório CSI261M1 -> No terminal: source start
-2. Abrir segundo terminal -> Ir para o diretório CSI261M2 -> No terminal: source start 
-3. Abrir terceito terminal -> Ir para o diretório CSI261S -> No terminal: source start (sensores)
+- **AquisicoesDados/**
+  - **M1/M2/S:** Códigos para aquisição de dados utilizando ESP32. Os scripts realizam a coleta das informações de estado do canal (CSI) nos modos Master (M1/M2) e Slave (S).
 
-##### Lembretes
-* Editor de texto no terminal = pico
-* /dev/ttyUSB* -> Descobrir em qual USB o módulo está conectado
-* ESP-IDF 4.4.3 e Python 3.9.12
+- **cleanCSI/**
+  - **cleanCSI():** Algoritmos responsáveis por corrigir a sequência dos sensores, tratando erros e inconsistências nos dados coletados para melhorar a qualidade do treinamento.
 
-### Segunda Versão (DESATUALIZADA)
-Mudamos para o Windows <br/>
-ESP-IDF 5.0 <br/>
-Diretório do Boyang Li <br/>
+- **showCSI/**
+  - **showCSI():** Ferramenta para visualizar os resultados do CSI, permitindo a análise visual dos padrões de ocupação e comportamento do ambiente.
 
-##### Instruções (Atualização)
-1. Abrir atalho de terminal "ESP-IDF 5.0 CMD" ou "ESP-IDF 5.0 POWERSHELL" presentes na Área de Trabalho
-2. Ir para o diretório csi261M1
-   * idf.py build
-   * idf.py -p [PORT] flash monitor (só monitor se os módulos já estiverem gravados)
-3. Ir para o diretório csi261M2
-   * idf.py build
-   * idf.py -p [PORT] flash monitor (só monitor se os módulos já estiverem gravados)
-4. Ir para o diretório csi261S
-   * idf.py build
-   * idf.py -p [PORT] flash monitor (só monitor se os módulos já estiverem gravados)
+- **FewShot/**
+  - **FewShot():** Implementação do modelo de aprendizado Few-Shot com CNN para estimar a ocupação a partir de poucas amostras, validando o modelo em diferentes ambientes.
 
-### Tercerira Versão
-Em produção... <br>
-Versões anteriores falharam por incompatibilidades. 
+## Como Executar os Códigos
 
-## Machine Learning
-```show_CSI()```
+1. **Aquisição de Dados:**
+   - Configure o ESP32 com os códigos de M1/M2/S.
+   - Envie os dados coletados para o ambiente de processamento.
+
+2. **Correção dos Dados:**
+   - Use a função `cleanCSI()` para organizar e limpar os dados brutos.
+
+3. **Visualização:**
+   - Execute `showCSI()` para analisar os dados graficamente.
+
+4. **Treinamento e Validação:**
+   - Rode a função `FewShot()` para treinar e validar o modelo com as amostras coletadas.
+
+## Requisitos
+
+- Python 3.x
+- Bibliotecas: NumPy, Matplotlib, TensorFlow/PyTorch
+- Ambiente ESP32 configurado
+
+## Contribuição
+
+Sinta-se à vontade para abrir issues ou enviar pull requests caso queira contribuir com melhorias ou correções.
+
+---
+
+**Autora:** Andressa Maria Monteiro Sena  
+**Instituição:** Universidade de Brasília (UnB)  
+**Programa:** Iniciação Científica (ProIC)
+
+---
+
+Este projeto faz parte de uma pesquisa voltada para a eficiência energética e automação predial, utilizando aprendizado de máquina para estimar padrões de ocupação com base na variação do sinal CSI.
+
+---
+
+Qualquer ajuste que você queira fazer, é só avisar! 🚀
+
