@@ -1,6 +1,6 @@
 # CNN Few-Shot para Aprendizado Flexível em Ambientes Prediais
 
-Este repositório contém os códigos utilizados no meu Trabalho de Conclusão de Curso, cujo objetivo era estimação de atividades em ambientes prediais utilizando técnicas de aprendizado de máquina e Few-Shot Learning, com base em dados CSI (Channel State Information).
+Este repositório contém os códigos utilizados no meu Trabalho de Conclusão de Curso na Universidade de Brasília (UnB), cujo objetivo era estimação de atividades em ambientes prediais utilizando técnicas de aprendizado de máquina e Few-Shot Learning, com base em dados CSI (Channel State Information).
 
 ## Estrutura do Repositório
 
